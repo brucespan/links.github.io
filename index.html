@@ -4,28 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="Links profissionais de Bruce Alves.">
   <title>Bruce - Links</title>
   <link rel="stylesheet" href="./css/imports.css">
 </head>
 
 <body>
-  <section class="card">
-    <div class="card__content">
-      <img class="card__foto" src="./img/perfil.png" alt="Foto de perfil">
-      <p class="card__name">@bruceo__o</p>
-      <h1 class="card__btn" id="btn__link">LINKS</h1>
-    </div>
-    <div class="card__links">
-      <ul>
-        <li><a class="link__linkedin" href="https://www.linkedin.com/in/bruce-oliveira-alves-859720294/">LinkedIn</a></li>
-        <li><a class="link__insta" href="https://www.instagram.com/bruce_span/">Insta - Work</a></li>
-        <li><a class="link__github" href="https://github.com/brucespan/brucespan">GitHub</a></li>
-        <li><a class="link__mail" href="mailto:brucealves.pro@icloud.com">E-Mail</a></li>
-      </ul>
-    </div>
-  </section>
+  <main class="card">
+    <header class="card__content">
+      <div class="card__photo-frame">
+        <img class="card__photo" src="./img/perfil-bruce.jpg" alt="Foto de perfil de Bruce Alves">
+      </div>
+      <p class="card__name">@brucealvez_</p>
+      <h1 class="card__title">Links</h1>
+    </header>
 
-  <script src="./js/script.js"></script>
+    <nav class="card__links" aria-label="Links profissionais">
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/bruce-oliveira-alves-859720294/" target="_blank" rel="noopener noreferrer">
+            <span>LinkedIn</span><span class="link__arrow" aria-hidden="true">&#8599;</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_brucealves/" target="_blank" rel="noopener noreferrer">
+            <span>Instagram | Trabalho</span><span class="link__arrow" aria-hidden="true">&#8599;</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/brucespan/brucespan" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span><span class="link__arrow" aria-hidden="true">&#8599;</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:brucealves.pro@icloud.com">
+            <span>E-mail</span><span class="link__arrow" aria-hidden="true">&#8599;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </main>
 </body>
 
 </html>
